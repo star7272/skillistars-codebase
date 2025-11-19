@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>About — Skillicodebase</title>
+
+<!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+  :root{
+    --bg: #000;
+    --neon-a: #00ffff;
+    --neon-b: #ff00ff;
+    --panel: rgba(255,255,255,0.03);
+  }
+
+  html,body{height:100%;margin:0;background:var(--bg);color:#cfeff0;font-family:Inter,Arial,Helvetica,sans-serif; -webkit-font-smoothing:antialiased;}
+  .wrap{max-width:1100px;margin:30px auto;padding:20px;display:grid;grid-template-columns: 320px 1fr;gap:20px;}
+  /* left column profile / nav */
+  .side {
+    position:relative;
+    padding:18px;
+    border-radius:12px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+    border: 1px solid rgba(0,255,255,0.06);
+    box-shadow: 0 6px 24px rgba(0,255,255,0.03), inset 0 0 30px rgba(0,255,255,0.02);
+  }
+  .mini-title { color:var(--neon-a); font-weight:700; font-size:18px; margin:0 0 12px 0; text-shadow:0 0 8px rgba(0,255,255,0.25); }
+  .mini-photo{width:100px;height:100px;border-radius:50%;object-fit:cover;border:3px solid var(--neon-a);box-shadow:0 0 12px var(--neon-a);display:block;margin:0 auto 12px}
+  .side p {margin:8px 0;color:#bfeff2;font-size:14px;line-height:1.5}
+  .side .btn {display:block;width:100%;padding:10px;border-radius:8px;border:none;background:linear-gradient(90deg,var(--neon-a),var(--neon-b));color:#000;font-weight:700;margin:8px 0;cursor:pointer;box-shadow:0 0 16px rgba(0,255,255,0.08)}
+  .side .link {display:flex;align-items:center;gap:10px;padding:8px;border-radius:8px;color:var(--neon-a);text-decoration:none;font-weight:600}
+  .side .link:hover{color:var(--neon-b);transform:translateX(6px)}
+  .socials{display:flex;gap:8px;justify-content:center;margin-top:12px}
+  .socials a{width:36px;height:36px;border-radius:8px;display:inline-flex;align-items:center;justify-content:center;background:rgba(255,255,255,0.03);color:var(--neon-a);text-decoration:none;box-shadow:0 0 10px rgba(0,255,255,0.04)}
+  /* right column content */
+  .main {
+    padding:22px;
+    border-radius:12px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+    border: 1px solid rgba(255,0,255,0.03);
+    box-shadow: 0 10px 30px rgba(255,0,255,0.02);
+  }
+  h1{margin:0 0 8px 0;color:var(--neon-b);text-shadow:0 0 12px rgba(255,0,255,0.12)}
+  h2{color:var(--neon-a);margin-top:18px}
+  p.lead{color:#d8f7f6;line-height:1.6;font-size:15px}
+  .card{background:var(--panel);padding:14px;border-radius:10px;border:1px solid rgba(255,255,255,0.03);margin-top:12px}
+  .two-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:12px}
+  .team-member{display:flex;gap:12px;align-items:center}
+  .member-photo{width:56px;height:56px;border-radius:10px;object-fit:cover;border:2px solid rgba(255,255,255,0.04)}
+  .faq .q{margin:12px 0;padding:10px;border-radius:8px;background:linear-gradient(90deg, rgba(255,255,255,0.012), rgba(255,255,255,0.01));border:1px solid rgba(0,255,255,0.02)}
+  footer{margin-top:22px;padding-top:12px;border-top:1px dashed rgba(255,255,255,0.03);color:#9eeff0;font-size:13px;display:flex;justify-content:space-between;align-items:center}
+  a.neonlink{color:var(--neon-a);text-decoration:none;font-weight:700}
+  @media(max-width:900px){.wrap{grid-template-columns:1fr; padding:12px} .side{order:2} .main{order:1}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <!-- LEFT: profile & quick links -->
+  <aside class="side" aria-labelledby="profileTitle">
+    <h3 id="profileTitle" class="mini-title">Account</h3>
+
+    <img id="aboutMiniPhoto" class="mini-photo" src="default.jpg" alt="Profile photo">
+
+    <p style="text-align:center"><strong id="aboutName">Guest</strong></p>
+    <p style="text-align:center;color:#aeeff0;font-size:13px" id="aboutEmail">Not signed in</p>
+
+    <button class="btn" id="goDashboardBtn" onclick="goToDashboard()">Go to Dashboard</button>
+
+    <nav style="margin-top:14px">
+      <a class="link" href="lessons.html"><i class="fa-solid fa-book"></i> Lessons</a>
+      <a class="link" href="about.html"><i class="fa-solid fa-info-circle"></i> About</a>
+      <a class="link" href="privacy.html"><i class="fa-solid fa-user-shield"></i> Privacy</a>
+      <a class="link" href="terms.html"><i class="fa-solid fa-file-contract"></i> Terms</a>
+    </nav>
+
+    <div class="socials" aria-hidden>
+      <a href="https://wa.me/254738017513" target="_blank" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100077673451749"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://t.me/skillistarscodebase001"><i class="fa-brands fa-telegram"></i></a>
+      <a href="https://tiktok.com/@stano_3560"><i class="fa-brands fa-tiktok"></i></a>
+      <a href="https://www.instagram.com/stano3560?igsh=Z2hxbXcyY3VhbDE3"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </aside>
+
+  <!-- RIGHT: main about content -->
+  <main class="main" role="main">
+    <h1>About Skillicodebase</h1>
+    <p class="lead">Skillicodebase is a tiny learning hub focused on beginner web development — built to be fast, simple and neon-cool. We provide bite-sized lessons, PDF notes, and starter projects so learners can go from zero to practical code.</p>
+
+    <section class="card" aria-labelledby="mission">
+      <h2 id="mission">Our Mission</h2>
+      <p>To make web development approachable and fun. We simplify concepts, provide practical examples, and encourage learning by building small projects.</p>
+    </section>
+
+    <section class="card" aria-labelledby="vision">
+      <h2 id="vision">Our Vision</h2>
+      <p>We want a web where anyone — regardless of background — can learn to build things that matter. Skillicodebase aims to be a reliable first step on that journey.</p>
+    </section>
+
+    <section class="card" aria-labelledby="team">
+      <h2 id="team">Team</h2>
+
+      <div class="two-grid">
+        <div class="team-member">
+          <img class="member-photo" src="https://files.catbox.moe/wkuosq.png" alt="Founder">
+          <div>
+            <div style="font-weight:700">Stano Star</div>
+            <div style="font-size:13px;color:#bfeff3">Founder & Developer</div>
+          </div>
+        </div>
+
+        <div class="team-member">
+          <img class="member-photo" src="default.jpg" alt="Mentor">
+          <div>
+            <div style="font-weight:700">Mentor X</div>
+            <div style="font-size:13px;color:#bfeff3">Curriculum Advisor</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" aria-labelledby="contact">
+      <h2 id="contact">Contact & Support</h2>
+      <p>Need help? Reach us on WhatsApp or email. We respond within a business day.</p>
+      <p><strong>WhatsApp:</strong> <a class="neonlink" href="https://wa.me/254738017513" target="_blank">Chat now</a></p>
+      <p><strong>Email:</strong> <a class="neonlink" href="skillistars@gmail.com">skillistars@gmail.com</a></p>
+    </section>
+
+    <section class="card faq" aria-labelledby="faq">
+      <h2 id="faq">FAQ</h2>
+      <div class="q"><strong>Q:</strong> How do I access lesson PDFs?<br/><strong>A:</strong> Click a lesson in the Lessons page — each lesson includes an embedded PDF and a download link.</div>
+      <div class="q"><strong>Q:</strong> Can I host this site myself?<br/><strong>A:</strong> Yes — the site is static. Upload the files to GitHub Pages, Netlify, or Vercel and add your custom domain.</div>
+    </section>
+
+    <footer>
+      <div>© <span id="year"></span> Skillicodebase</div>
+      <div>
+        <a class="neonlink" href="privacy.html">Privacy</a> ·
+        <a class="neonlink" href="terms.html">Terms</a>
+      </div>
+    </footer>
+  </main>
+</div>
+
+<script>
+  // fill year
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // load user info from localStorage (if signed in)
+  function loadAboutProfile(){
+    const name = localStorage.getItem('username') || 'Guest';
+    const email = localStorage.getItem('email') || 'Not signed in';
+    const photo = localStorage.getItem('profilePhoto') || 'default.jpg';
+
+    document.getElementById('aboutName').textContent = name;
+    document.getElementById('aboutEmail').textContent = email;
+    document.getElementById('aboutMiniPhoto').src = photo;
+  }
+
+  function goToDashboard(){
+    // go to your dashboard page (change path if needed)
+    window.location.href = 'index.html'; // or lessons.html or dashboard page
+  }
+
+  // run on load
+  window.addEventListener('load', ()=>{
+    loadAboutProfile();
+  });
+</script>
+</body>
+</html>

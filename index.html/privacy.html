@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Privacy Policy — Skillicodebase</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+  :root {
+    --bg: #000;
+    --neon-a: #00ffff;
+    --neon-b: #ff00ff;
+    --panel: rgba(255,255,255,0.03);
+  }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    font-family: Inter, Arial, sans-serif;
+    color: #d8fefe;
+  }
+
+  .wrap {
+    max-width: 1100px;
+    margin: 25px auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 20px;
+  }
+
+  /* SIDE PROFILE BAR */
+  .side {
+    padding: 20px;
+    border-radius: 12px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+    border: 1px solid rgba(0,255,255,0.06);
+    box-shadow: 0 6px 24px rgba(0,255,255,0.08), inset 0 0 30px rgba(0,255,255,0.04);
+  }
+
+  .mini-title {
+    color: var(--neon-a);
+    text-align: center;
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: 0 0 12px rgba(0,255,255,0.3);
+  }
+
+  .mini-photo {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 3px solid var(--neon-a);
+    display: block;
+    margin: 0 auto 10px;
+    object-fit: cover;
+    box-shadow: 0 0 15px var(--neon-a);
+  }
+
+  .side p {
+    text-align: center;
+    font-size: 14px;
+    color: #cfffff;
+  }
+
+  .side .link {
+    display: block;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--neon-a);
+    font-weight: 600;
+    transition: .2s;
+  }
+  .side .link:hover {
+    padding-left: 18px;
+    color: var(--neon-b);
+  }
+
+  .side .btn {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(90deg, var(--neon-a), var(--neon-b));
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    margin: 10px 0;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .socials {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 14px;
+  }
+  .socials a {
+    width: 36px;
+    height: 36px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--neon-a);
+    font-size: 18px;
+  }
+
+  /* MAIN CONTENT */
+  .main {
+    padding: 22px;
+    border-radius: 12px;
+    background: var(--panel);
+    border: 1px solid rgba(255,0,255,0.05);
+    box-shadow: 0 10px 30px rgba(255,0,255,0.05);
+  }
+
+  h1 {
+    color: var(--neon-b);
+    text-shadow: 0 0 10px rgba(255,0,255,0.2);
+  }
+
+  h2 {
+    color: var(--neon-a);
+    margin-top: 22px;
+  }
+
+  p {
+    line-height: 1.6;
+  }
+
+  .card {
+    margin-top: 15px;
+    padding: 14px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.02);
+    border: 1px solid rgba(255,255,255,0.04);
+  }
+
+  a.neonlink {
+    color: var(--neon-a);
+    text-decoration: none;
+  }
+
+  footer {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    color: #9efff8;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 900px) {
+    .wrap {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <!-- LEFT PROFILE BAR -->
+  <aside class="side">
+    <h3 class="mini-title">Your Profile</h3>
+
+    <img id="aboutMiniPhoto" class="mini-photo" src="default.jpg" alt="profile">
+
+    <p><b id="aboutName">Guest</b></p>
+    <p id="aboutEmail">Not signed in</p>
+
+    <button class="btn" onclick="window.location.href='index.html'">Dashboard</button>
+
+    <a class="link" href="about.html"><i class="fa-solid fa-info-circle"></i> About</a>
+    <a class="link" href="privacy.html"><i class="fa-solid fa-user-shield"></i> Privacy Policy</a>
+    <a class="link" href="terms.html"><i class="fa-solid fa-file-contract"></i> Terms & Conditions</a>
+    <a class="link" href="lessons.html"><i class="fa-solid fa-book"></i> Lessons</a>
+
+    <div class="socials">
+      <a href="https://wa.me/254738017513"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100077673451749"><i class="fab fa-facebook"></i></a>
+      <a href="https://t.me/skillistarscodebase001"><i class="fab fa-telegram"></i></a>
+      <a href="https://tiktok.com/@stano_3560"><i class="fab fa-tiktok"></i></a>
+      <a href="https://www.instagram.com/stano3560?igsh=Z2hxbXcyY3VhbDE3"><i class="fab fa-instagram"></i></a>
+    </div>
+  </aside>
+
+
+  <!-- MAIN PRIVACY POLICY -->
+  <main class="main">
+    <h1>Privacy Policy</h1>
+
+    <p>Your privacy is important to us. This Privacy Policy explains how Skillicodebase collects, uses, and protects your information while using our website.</p>
+
+    <section class="card">
+      <h2>1. Information We Collect</h2>
+      <p>We may collect the following:</p>
+      <ul>
+        <li>Username and email entered during login or registration.</li>
+        <li>Profile picture uploaded by the user.</li>
+        <li>Basic usage data (pages visited, lesson progress).</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>2. How We Use Your Information</h2>
+      <p>Your data is used to:</p>
+      <ul>
+        <li>Personalize your learning dashboard.</li>
+        <li>Display your username and profile information.</li>
+        <li>Improve user experience and features.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>3. Data Storage</h2>
+      <p>All user information is stored safely in:</p>
+      <ul>
+        <li><b>LocalStorage</b> on your device (for login data)</li>
+        <li>Our secure backend (if you add a database later)</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>4. Cookies</h2>
+      <p>We may use cookies for:</p>
+      <ul>
+        <li>Saving user session</li>
+        <li>Improving website performance</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>5. Sharing Your Information</h2>
+      <p>We do NOT sell or share your information with any third parties except:</p>
+      <ul>
+        <li>Required by law</li>
+        <li>To secure the website</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>6. Your Rights</h2>
+      <p>You can:</p>
+      <ul>
+        <li>Edit your profile</li>
+        <li>Change your password</li>
+        <li>Delete your stored data anytime</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>7. Contact Us</h2>
+      <p>If you have any questions, message us:</p>
+      <p><b>Email:</b> skillistars@gmail.com</p>
+      <p><b>WhatsApp:</b> +254738017513</p>
+    </section>
+
+    <footer>
+      <span>© <span id="year"></span> Skillistars codebase</span>
+      <span><a class="neonlink" href="terms.html">Terms</a></span>
+    </footer>
+
+  </main>
+
+</div>
+
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  // Load user info from localStorage
+  function loadProfile() {
+    const name = localStorage.getItem("username") || "Guest";
+    const email = localStorage.getItem("email") || "Not signed in";
+    const photo = localStorage.getItem("profilePhoto") || "default.jpg";
+
+    document.getElementById("aboutName").textContent = name;
+    document.getElementById("aboutEmail").textContent = email;
+    document.getElementById("aboutMiniPhoto").src = photo;
+  }
+  loadProfile();
+</script>
+
+</body>
+</html>
