@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #00ffff;
+    }
+    a {
+      color: #ff00ff;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #00ffff;
+    }
+    section {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+
+  <section>
+    <h2>1. Introduction</h2>
+    <p>At SKILLI STARS CODEBASE, we value your privacy and are committed to protecting your personal data.</p>
+  </section>
+
+  <section>
+    <h2>2. Information Collection</h2>
+    <p>We may collect information such as your name, email, or browsing behavior to improve your experience.</p>
+  </section>
+
+  <section>
+    <h2>3. Use of Information</h2>
+    <p>Your information is used solely to enhance your experience and provide relevant services.</p>
+  </section>
+
+  <section>
+    <h2>4. Sharing Information</h2>
+    <p>We do not sell or share your personal information with third parties, except as required by law.</p>
+  </section>
+
+  <section>
+    <h2>5. Security</h2>
+    <p>We implement appropriate measures to safeguard your data against unauthorized access or disclosure.</p>
+  </section>
+
+  <section>
+    <h2>6. Changes to Policy</h2>
+    <p>We may update this Privacy Policy occasionally. Continued use of our website constitutes acceptance of changes.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SKILLI STARS CODEBASE. All rights reserved.</p>
+  </footer>
+</body>
+</html>
