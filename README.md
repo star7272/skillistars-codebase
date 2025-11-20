@@ -4,7 +4,7 @@
 </p>
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&color=00FFFF&background=000000&center=true&vCenter=true&width=700&lines=⚡+SKILLISTAR+CODEBASE+NEON+LEARNING+PORTAL;🔥+Learn+Coding+with+Style;💻+Crafted+by+Stano+Star;🚀+Next-Gen+Web+Learning;🌈+Fast+⚡+Interactive+🖥️+Fun" alt="Typing Animation">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&color=00FFFF&background=000000&center=true&vCenter=true&width=700&lines=⚡+SKILLISTAR+CODEBASE+NEON+LEARNING+CODE+PORTAL;🔥+Learn+Coding+with+Style;💻+Crafted+by+Stano+Star;🚀+Next-Gen+Web+Learning;🌈+Fast+⚡+Interactive+🖥️+Fun" alt="Typing Animation">
 </h1>
 
 <!-- Profile Card -->
@@ -54,7 +54,7 @@
 <!-- Repo Stats -->
 <h2 align="center">📊 Repo Statistics</h2>
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Skillistar&label=Profile+Views&color=0e75b6&style=for-the-badge" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/star7272=Skillistars-codebase&label=Profile+Views&color=0e75b6&style=for-the-badge" alt="Profile views"/>
   <img src="https://github.com/star7272?tab=followers" alt="GitHub Followers"/>
   <img src="https://img.shields.io/github/stars/Skillistar?label=GitHub+Stars&style=for-the-badge" alt="GitHub Stars"/>
 </p>
@@ -68,7 +68,7 @@
 
 <!-- More Info -->
 <p align="center">
-  <a href="https://skillistar.github.io" target="_blank" rel="noopener noreferrer">
+  <a href="https://skillistars-codebase.pages.dev/" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Explore%20Portal-00ffaa?style=for-the-badge&logo=internet-explorer&logoColor=white" width="340" height="50" alt="Explore Portal"/>
   </a>
 </p>
