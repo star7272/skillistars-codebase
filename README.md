@@ -26,7 +26,7 @@
 
 <!-- Action Buttons -->
 <p align="center">
-  <a href="index.html" target="_blank" rel="noopener noreferrer">
+  <a href="1ndex.html.html" target="_blank" rel="noopener noreferrer">
     <img title="OPEN PORTAL" src="https://img.shields.io/badge/🚀_OPEN_PORTAL-000000?style=for-the-badge&logo=html5&logoColor=white&color=00FFFF" width="260" height="50"/>
   </a>
   <a href="about.html" target="_blank" rel="noopener noreferrer">
