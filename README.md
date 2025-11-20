@@ -29,15 +29,15 @@
   <a href="https://skillistars-codebase.pages.dev/" target="_blank" rel="noopener noreferrer">
     <img title="OPEN PORTAL" src="https://img.shields.io/badge/🚀_OPEN_PORTAL-000000?style=for-the-badge&logo=html5&logoColor=white&color=00FFFF" width="260" height="50"/>
   </a>
-  <a href="about.html" target="_blank" rel="noopener noreferrer">
+  <a href="https://skillistars-codebase.pages.dev/about" target="_blank" rel="noopener noreferrer">
     <img title="ABOUT US" src="https://img.shields.io/badge/ℹ️_ABOUT_US-000000?style=for-the-badge&logo=info&logoColor=white&color=FF00FF" width="260" height="50"/>
   </a>
 </p>
 <p align="center">
-  <a href="privacy.html" target="_blank" rel="noopener noreferrer">
+  <a href="https://skillistars-codebase.pages.dev/privacy" target="_blank" rel="noopener noreferrer">
     <img title="PRIVACY POLICY" src="https://img.shields.io/badge/🔒_PRIVACY_POLICY-000000?style=for-the-badge&logo=lock&logoColor=white&color=00FFFF" width="260" height="50"/>
   </a>
-  <a href="terms.html" target="_blank" rel="noopener noreferrer">
+  <a href="https://skillistars-codebase.pages.dev/terms" target="_blank" rel="noopener noreferrer">
     <img title="TERMS & CONDITIONS" src="https://img.shields.io/badge/📄_TERMS_-000000?style=for-the-badge&logo=file&logoColor=white&color=FF00FF" width="260" height="50"/>
   </a>
 </p>
