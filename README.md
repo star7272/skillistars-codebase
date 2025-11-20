@@ -55,7 +55,7 @@
 <h2 align="center">📊 Repo Statistics</h2>
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Skillistar&label=Profile+Views&color=0e75b6&style=for-the-badge" alt="Profile views"/>
-  <img src="https://img.shields.io/github/followers/Skillistar?label=Followers&style=for-the-badge" alt="GitHub Followers"/>
+  <img src="https://github.com/star7272?tab=followers" alt="GitHub Followers"/>
   <img src="https://img.shields.io/github/stars/Skillistar?label=GitHub+Stars&style=for-the-badge" alt="GitHub Stars"/>
 </p>
 
